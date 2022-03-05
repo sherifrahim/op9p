@@ -27,7 +27,8 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PixelSetupWizard9PStringsOverlay
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-derp
