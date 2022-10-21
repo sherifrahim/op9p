@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonadep.mk
+    $(LOCAL_DIR)/xtended_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lemonadep-user \
-    lineage_lemonadep-userdebug \
-    lineage_lemonadep-eng
+    xtended_lemonadep-user \
+    xtended_lemonadep-userdebug \
+    xtended_lemonadep-eng
