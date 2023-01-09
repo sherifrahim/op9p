@@ -15,14 +15,4 @@
     <!-- Diagonal Screen length provided -->
     <string name="config_screen_diagonal_length" translatable="false">"6.2922"</string>
 
-    <!-- Whether screen resolution changing is supported -->
-    <bool name="config_screen_resolution_changing_supported">true</bool>
-
-    <!-- Maximum supported screen resolution
-          1: hd
-          2: fhd 
-          3: qhd
-          4: wqhd
-     -->
-     <integer name="config_screen_resolution_max">3</integer>
 </resources>
