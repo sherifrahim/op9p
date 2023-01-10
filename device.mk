@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 3168
+TARGET_SCREEN_WIDTH := 1440
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -29,7 +30,7 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-xtended
+    $(LOCAL_PATH)/overlay-derp
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
